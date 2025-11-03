@@ -1,13 +1,8 @@
-const express = require('express'); 
+const app = require('./src/app');
 
-const app = express();
+const PORT = process.env.PORT || 3000;
 
-const port = 3000;
-
-app.get('/', (req, res) => {
-  res.send('BackEnd em Express rodando corretamente');
-});
-
-app.listen(port, () => {
-  console.log(`Servidor rodando em http://localhost:${port}`);
+app.listen(PORT, () => {
+  console.log(`Servidor rodando em http://localhost:${PORT}`);
+  console.log('Pressione CTRL+C para parar.');
 });
