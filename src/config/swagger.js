@@ -9,6 +9,7 @@ const swaggerDefinition = {
         contact: {
             name: 'Paulo Campos',
             email: 'paulo.m.campos6601@gmail.com',
+            url: 'https://github.com/paulo-campos-57/IsCool-GPT'
         },
     },
     servers: [
