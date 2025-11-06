@@ -23,5 +23,21 @@ jobs:
       - name: Instalar dependências
         run: npm ci
 
+      - name: Rodar lint
+        run: npm run lint
+
       - name: Rodar testes
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: npm test
+
+      - name: Build da imagem Docker
+        run: docker build -t iscool-gpt .
+
+      - name: Rodar container e validar execução
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          docker compose up --build -d
+          sleep 5
+          docker ps -a

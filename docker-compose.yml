@@ -9,4 +9,4 @@ services:
       - "3000:3000"
     environment:
       - NODE_ENV=production
-      - GEMINI_API_KEY=fake-key-for-tests
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
