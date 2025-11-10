@@ -2,7 +2,7 @@ name: CI - Node.js Tests
 
 on:
   push:
-    branches: [ development ]
+    branches: [ development, main ]
   pull_request:
     branches: [ development, main ]
   workflow_dispatch:
