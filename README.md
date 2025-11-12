@@ -1,13 +1,13 @@
 <div align="center">
   <h1>
-    <img src="https://skillicons.dev/icons?i=nodejs,docker,aws" /><br>IsCool-GPT 🇧🇷
+    <img src="https://skillicons.dev/icons?i=nodejs,docker,aws" /><br>CloudIA 🇧🇷
   </h1>  
 </div>
 
 ---
 
 ## Descrição
-IsCool-GPT é um assistente inteligente projetado para auxiliar nos estudos de Computação em Nuvem.
+CloudIA é um assistente inteligente projetado para auxiliar nos estudos de Computação em Nuvem.
 A aplicação foi desenvolvida em Node.js (Express) e se comunica com a API do Google Gemini, permitindo interações dinâmicas e contextuais.
 
 ## Objetivo
@@ -31,11 +31,11 @@ Para executar o projeto localmente, é necessário seguir os seguintes passos:
     git clone https://github.com/paulo-campos-57/IsCool-GPT.git
   </dt>
   </li>
-  <li>Acesse a pasta 'IsCool-GPT';</li>
+  <li>Acesse a pasta 'CloudIA';</li>
   <li>
     Configure as variáveis de ambiente:
     <ul>
-      <li>Na pasta 'IsCool-GPT', crie um arquivo <code>.env</code></li>
+      <li>Na pasta 'CloudIA', crie um arquivo <code>.env</code></li>
       <li>
         Dentro do arquivo, passe as seguintes credenciais:
         <ul>
@@ -60,14 +60,14 @@ Para executar o projeto localmente, é necessário seguir os seguintes passos:
 
 <div align="center">
   <h1>
-    <img src="https://skillicons.dev/icons?i=nodejs,docker,aws" /><br>IsCool-GPT 🇺🇸
+    <img src="https://skillicons.dev/icons?i=nodejs,docker,aws" /><br>CloudIA 🇺🇸
   </h1>  
 </div>
 
 ---
 
 ## Description
-IsCool-GPT is an intelligent assistant designed to support the study of Cloud Computing.
+CloudIA is an intelligent assistant designed to support the study of Cloud Computing.
 The application was built using Node.js (Express) and communicates with the Google Gemini API, enabling dynamic and contextual interactions.
 
 ## Purpose
@@ -91,11 +91,11 @@ To locally run the project, follow these steps:
     git clone https://github.com/paulo-campos-57/IsCool-GPT.git
   </dt>
   </li>
-  <li>Go to 'IsCool-GPT' folder;</li>
+  <li>Go to 'CloudIA' folder;</li>
   <li>
     Set up environment variables:
     <ul>
-      <li>At 'IsCool-GPT' folder, create a <code>.env</code> file</li>
+      <li>At 'CloudIA' folder, create a <code>.env</code> file</li>
       <li>
         Inside the file, provide the following credentials:
         <ul>
